@@ -3,7 +3,7 @@ info:
   title: Pet Store
   version: 2.0.0
   description: |
-    A demo API for trying SpecPage, the OpenAPI docs macro for Confluence.
+    A demo API for trying SpecShelf, the OpenAPI docs macro for Confluence.
     Pets and orders for an imaginary pet store; the server is not real.
   contact:
     name: API team

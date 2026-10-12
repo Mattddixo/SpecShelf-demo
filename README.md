@@ -5,7 +5,7 @@ one repository so changes get reviewed in one place and the docs in
 Confluence stay in sync with what's merged here.
 
 > This is a demo repository for trying
-> [SpecPage](https://github.com/Mattddixo/SpecPage-docs), an OpenAPI,
+> [SpecShelf](https://github.com/Mattddixo/SpecShelf-docs), an OpenAPI,
 > Swagger and AsyncAPI docs macro for Confluence Cloud. Acme Pets isn't a
 > real company and none of the servers exist, so Try it out requests won't
 > get answers.
@@ -51,14 +51,14 @@ at a part such as `paths/orders.yaml`, which isn't a complete spec on its own.
 - Branch `orders-v2` is work in progress on Orders 2.0, which changes how
   totals are sent: a breaking change for anyone using the API.
 
-## Using it with SpecPage
+## Using it with SpecShelf
 
-1. In Confluence settings, open SpecPage and add a Git connection: provider
-   GitHub, allowed repository `Mattddixo/Specpagetest`.
-2. Add a SpecPage macro to a page, choose Git, pick the connection, and pick
+1. In Confluence settings, open SpecShelf and add a Git connection: provider
+   GitHub, allowed repository `Mattddixo/SpecShelf-demo`.
+2. Add a SpecShelf macro to a page, choose Git, pick the connection, and pick
    a spec from the File path suggestions. Or paste a link to a spec file on
    GitHub into the page, for example
-   https://github.com/Mattddixo/Specpagetest/blob/main/apis/orders/openapi.yaml.
+   https://github.com/Mattddixo/SpecShelf-demo/blob/main/apis/orders/openapi.yaml.
 3. Things to try:
    - The Orders macro shows it merged 15 files into one document.
    - Click Changes on the Pet Store and enter `v1`, or on Orders and enter
