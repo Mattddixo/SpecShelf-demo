@@ -1,0 +1,20 @@
+[
+  {
+    "id": 42,
+    "name": "Rex",
+    "species": "dog",
+    "status": "available"
+  },
+  {
+    "id": 43,
+    "name": "Tom",
+    "species": "cat",
+    "status": "available"
+  },
+  {
+    "id": 44,
+    "name": "Bubbles",
+    "species": "fish",
+    "status": "adopted"
+  }
+]

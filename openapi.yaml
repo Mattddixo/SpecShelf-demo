@@ -4,11 +4,15 @@ info:
   version: 2.0.0
   description: |
     A demo API for trying SpecShelf, the OpenAPI docs macro for Confluence.
-    Pets and orders for an imaginary pet store; the server is not real.
+    Pets and orders for an imaginary pet store. The demo server answers
+    GET /pets with sample data so Try it out has something to show; the
+    example server isn't real.
   contact:
     name: API team
     email: api@example.com
 servers:
+  - url: https://raw.githubusercontent.com/Mattddixo/SpecShelf-demo/main/mock
+    description: Demo server (sample answer for GET /pets)
   - url: https://petstore.example.com/v2
     description: Example server (not a real API)
 security:

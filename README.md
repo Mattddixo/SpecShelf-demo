@@ -7,8 +7,9 @@ Confluence stay in sync with what's merged here.
 > This is a demo repository for trying
 > [SpecShelf](https://github.com/Mattddixo/SpecShelf-docs), an OpenAPI,
 > Swagger and AsyncAPI docs macro for Confluence Cloud. Acme Pets isn't a
-> real company and none of the servers exist, so Try it out requests won't
-> get answers.
+> real company and its servers don't exist. The one exception is the Pet
+> Store's demo server, which answers `GET /pets` with sample data (see
+> [mock/](mock/README.md)) so Try it out has something to show.
 
 ## What's here
 
